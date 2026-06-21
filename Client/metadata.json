@@ -1,0 +1,7 @@
+{
+  "name": "DermaCheck AI",
+  "description": "AI-powered acne classification and assessment tool helping users understand their skin condition levels with personalized recommendations.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
