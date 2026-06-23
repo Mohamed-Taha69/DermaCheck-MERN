@@ -37,7 +37,7 @@ A modern, AI-powered web application for skin disease detection and analysis. Bu
 
 ## 📁 Project Structure
 
-Based on our updated architecture (`Screenshot (1553).jpg`):
+Based on the current project structure:
 
 ```
 DermaCheck-MERN/
@@ -122,7 +122,7 @@ The Express server handles the following main endpoints under `/api`:
 
 ## 🔒 Security Considerations
 
-- **Environment Protection:** Never commit `.env` files to Git. (They are included in `.gitignore` as shown in `Screenshot (1553).jpg`).
+- **Environment Protection:** Never commit `.env` files to Git. Keep them excluded through `.gitignore`.
 - **Password Hashing:** Passwords are fully hashed using `bcrypt` before storing them in MongoDB.
 - **Token Security:** Secure storage and delivery of JWTs for protected API routes.
 
